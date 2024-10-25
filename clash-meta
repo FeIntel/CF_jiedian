@@ -1,0 +1,14 @@
+- type: vless
+  name: feintel-vless2.feintel.workers.dev
+  server: feintel-vless2.feintel.workers.dev
+  port: 443
+  uuid: 2382686f-08f8-45b0-8332-4c0eb6491e67
+  network: ws
+  tls: true
+  udp: false
+  sni: feintel-vless2.feintel.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: "/?ed=2048"
+    headers:
+      host: feintel-vless2.feintel.workers.dev
